@@ -1,16 +1,6 @@
-Hi everyone,
-
-I have created this repository to share my Python projects and other like-minded stuff that we as a team can collobrate with.
-
-First up, is a game of "tic tac toe", that I have recently scripted as part of my Python upskilling training. Just download the tictactoe.py, run it, play it and share your feedback with me.
-
-Much appreciated.
-
-Thanks!
-
 Hello again everyone,
 
-New and improved version of the game, thanks to Ras for his valuabale feedback.
+New and improved version of the tictactoe game, and thanks to Ras for his valuabale feedback.
 
 Below are the modifications made to the initial version that was created via Jupyter notebook with limited features:
 
