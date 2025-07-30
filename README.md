@@ -9,3 +9,9 @@ Below are the modifications made to the initial version that was created via Jup
 3. Added game_on function to determine if the players want to continue playing or end the game.
 
 Again, your feedback is precious and appreciated!
+
+[30th July 2025] New addition to the repository are as follows:
+
+1. Python script to create PagerDuty Services extracting service name and escalation policy id's from a CSV file, passed as arguments.
+2. Sample CSV file that can be used for the script above.
+3. Another python script to list the PagerDuty services relavant to the API Key and From Email Address passed as an argument.
