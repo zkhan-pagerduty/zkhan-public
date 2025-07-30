@@ -37,7 +37,7 @@ def get_pagerduty_services(api_key, from_email_address):
 if __name__ == "__main__":
 
     if len(sys.argv) != 3:
-        print("Usage: python create_services.py <API_KEY> <FROM_EMAIL_ADDRESS>")
+        print("Usage: python get_pagerduty_services.py <API_KEY> <FROM_EMAIL_ADDRESS>")
         sys.exit(1)
 
     api_key = sys.argv[1]
