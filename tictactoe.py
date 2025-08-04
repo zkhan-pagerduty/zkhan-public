@@ -39,16 +39,17 @@ def position_choice(game_board, acceptable_values):
 
 def game_on():
 
-    user_input = input("\nDo you want to continue playing (Y/N): ")
+    user_input = input(
+        "\nEnter Yes or Y, if you want to continue playing, any other character to exit: "
+    )[
+        :1
+    ].upper()  # Get the first character only and convert it to uppercase
 
-    if user_input == "Y":
-        return True
-    elif user_input == "N":
-        print("\nThanks for playing!")
+    if user_input != "Y":
+        print("\nThanks for playing the game")
         return False
-    else:
-        print("Invalid input, please enter Y or N")
-        return game_on()  # Recursively call until valid input is received
+
+    return True
 
 
 # Function to select markers for the players
@@ -185,7 +186,7 @@ if __name__ == "__main__":
 
         player1_winner, player2_winner = check_status(game_board, marker_tuple)
 
-        # if player1 is the winner, then break the loop
+        # if player1 is the winner, ask the user for continuation else break the loop
         if player1_winner:
             game_is_on = game_on()
 
@@ -216,7 +217,7 @@ if __name__ == "__main__":
 
         player1_winner, player2_winner = check_status(game_board, marker_tuple)
 
-        # if player2 is the winner, then break the loop
+        # if player2 is the winner, ask the user for continuation else break the loop
         if player2_winner:
             game_is_on = game_on()
 
