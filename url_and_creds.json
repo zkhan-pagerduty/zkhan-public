@@ -1,0 +1,14 @@
+{
+    "instances": [
+        {
+            "url": "https://devXXXXXX.service-now.com/login.do",
+            "username": "",
+            "password": ""
+        },
+        {
+            "url": "https://devXXXXXX.service-now.com/login.do",
+            "username": "",
+            "password": ""
+        }
+    ]
+}
